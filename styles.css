@@ -42,7 +42,7 @@
   
   ::-webkit-scrollbar-thumb {
     border-radius: 12px;
-    background: linear-gradient(135deg, #f57308, #fff, rgb(11, 242, 7));
+    background: linear-gradient(135deg, #efaa71, #efaa71, #efaa71);
   }
   
   ::-webkit-scrollbar-thumb:hover {
@@ -145,6 +145,7 @@
     transition: all 0.3s ease;
   }
   
+
   .navbar.sticky .logo a span {
     color: #fff;
   }
@@ -212,8 +213,7 @@
   /*  Home  */
   .home {
     display: flex;
-    background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat
-      center;
+    background-image:url(istockphoto-1355096028-612x612.jpg);
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -402,7 +402,7 @@
     background: radial-gradient(#e1efff, white);
   }
   .skills .title::after {
-    content: "—What I Know ?—";
+    content: "—What we do ?—";
   }
   
   .skills .skills-content .column {
@@ -507,7 +507,7 @@
   
   /*  Projects  */
   .projects .title::after {
-    content: "What I did ?";
+    content: "What we did ?";
   }
   
   .projects .carousel .card {
